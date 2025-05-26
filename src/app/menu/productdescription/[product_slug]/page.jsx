@@ -1,4 +1,4 @@
-import ProductDescriptionClient from "@/app/components/productdescriptionClient";
+import ProductDescriptionClient from "@/app/components/ProductDescriptionClient";
 
 export default async function ProductDetail({ params }) {
   const { product_slug } = await params;
